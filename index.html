@@ -12,10 +12,15 @@
     </header>
     <main>
         <script>
-            function nombre() {
-                var nom = document.getElementById("name").value;
+            function mifuncionnombre() {
+                var nom = document.getElementById("nombre").value;
+                var apellido = document.getElementById("apellido").value;
+                alert ('bienvenido' + nombre + apellido)
             }
         </script>
+
+        Introduce tu nombrre <input type="text" id="nombre">
+        Introduce tu apellido <input type="text" id="apellido" onchange="mifuncionnombre">
     </main>
 </body>
 </html>
